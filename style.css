@@ -4,3 +4,67 @@
     background-repeat: no-repeat;
     padding: 175px 0;
 }
+
+.contact-container{
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.A {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #0056b3;
+}
+
+.contact-text {
+    color: #333;
+}
+
+.contact-item a {
+    color: inherit;
+}
+
+.contact-item a:hover {
+    color: inherit;
+}
